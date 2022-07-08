@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -5,5 +6,75 @@
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns:300px 700px;
+}
 
-/* Write CSS code below */
+.left-section{
+    width: 300px;
+    padding: 1rem;
+    background-color:#a2abb1da;
+    
+}
+.right-section{
+  width: 700px;
+  
+    background-color:  #e2eaee;
+    
+}
+.profile-image{
+    margin: auto;
+    display:block;
+    align-items: center;
+    padding: 1rem;
+    border: 5px solid white;
+    width: 60%;
+    border-radius: 30%;
+
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    word-spacing: 0.02px;
+
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+padding-bottom: 0.5rem;
+
+}
+.descrition{
+    font-size: 00.75rem;
+    text-align: center;
+    
+    padding: 1px 1px 1px 1px;
+
+}
+
+
+.skills{
+    font-size: 0.75rem;
+    text-align: center uppercase;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.skill-name{
+    padding-bottom: 0.5rem;
+    text-align: left;
+    font-size: 0.65rem;
+}
+.progress-bar{
+    height: 4px;
+    border: 1px solid white;
+}
