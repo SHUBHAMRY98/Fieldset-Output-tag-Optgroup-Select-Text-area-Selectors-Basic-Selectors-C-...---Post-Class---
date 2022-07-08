@@ -39,10 +39,9 @@
 .name{
     font-size: 1.2rem;
     font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+    text-align: center uppercase;
     word-spacing: 0.02px;
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem; 
 
 }
 .designation{
