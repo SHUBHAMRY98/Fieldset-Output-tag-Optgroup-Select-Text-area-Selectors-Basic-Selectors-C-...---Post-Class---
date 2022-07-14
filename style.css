@@ -21,13 +21,7 @@
     height: 1000px;
     padding: 1rem 1rem 1rem 1rem;
     background-color:#a2abb1da;
-    grid-column: 1/span2;
-}
-.right-section{
-  width: 700px;
-  height: 1000px;
-    background-color:  #e2eaee;
-    
+    grid-column: span1;
 }
 .profile-image{
     margin: auto;
@@ -79,18 +73,34 @@ padding-bottom: 0.5rem;
     font-weight: 0.65rem;
 }
 .progress-bar{
-    height: 4px;
-    border: 1px solid white;
+    height: 5px;
+    border: 2px solid rgb(10, 10, 10);
 }
 
 .right-section{
+    min-height: 1000px;
+    width: 700px;
+  grid-column: span1/span2;
+      background-color:  #e2eaee;
+      
+  }
+
+.right-main-content{
     padding: 32px 48px 32px 48px;
 }
 .right-title{
+    text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: 700;
     padding: 0.5rem;
-    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+@media screen and (max-width:600px){
+    .main_content{
+        grid-template-columns: repeat(1,1fr);
+        
+        
+    }
 }
 
 
