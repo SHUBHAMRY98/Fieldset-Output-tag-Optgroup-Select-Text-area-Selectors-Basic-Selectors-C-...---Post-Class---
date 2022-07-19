@@ -72,8 +72,8 @@ color: #070606;
     font-weight: 0.65rem;
 }
 .progress-bar{
-    height: 5px;
-    border: 2px solid rgb(10, 8, 8);
+    height: 4px;
+    border: 1px solid white;
 }
 
 .right-section{
